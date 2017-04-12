@@ -4,7 +4,7 @@ import App from './App';
 import manageTodo from './reducers/manageTodo'
 import createStore from './createStore'
 
-let store = createStore(manageTodo)
+let store = createStore( manageTodo )
 
 export function render(){
   ReactDOM.render(
