@@ -8,6 +8,7 @@ class App extends Component {
       <div className="App">
         <CreateTodo store={this.props.store} />
         <Todos store={this.props.store} />
+        hi hi hi 
       </div>
     );
   }
